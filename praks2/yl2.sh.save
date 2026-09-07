@@ -1,0 +1,6 @@
+#!/bin/bash 
+# Küpsise tordi arvutamise skript
+#
+#kasutaja sisend
+read -p "Sisest kandiku pikkus: " k_pikkus
+read -p "Sisest
