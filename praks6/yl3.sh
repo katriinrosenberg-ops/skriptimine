@@ -1,18 +1,19 @@
 #!/bin/bash
 
-for i in {1..5}
-do
-	echo "Valine tsukkel: i = $i"
+read -p "Sisesta kuu number: " kuu
 
-	for j in {1..10}
-	do
-	    echo "Sisemine tsukkel: j = $j"
-
-	    if [[ $j -eq 5 ]]; then
-		echo "Sisemine tsukkel joudis vaartuseni 5, katkestan mõlemad"
-		break 2
-	    fi
-      done
-done
-
-echo "Parast tsukleid"
+case $kuu in
+    1) echo "See on jaanuar";;
+    2) echo "See on veebruar";;
+    3) echo "See on märts";;
+    4) echo "See on aprill";;
+    5) echo "See on mai";;
+    6) echo "See on juuni";;
+    7) echo "See on juuli";;
+    8) echo "See on august";;
+    9) echo "See on september";;
+    10) echo "See on oktoober";;
+    11) echo "See on november";;
+    12) echo "See on detsember";;
+    *) echo "Viga: Palun sisesta number vahemikus 1-12!";;
+esac

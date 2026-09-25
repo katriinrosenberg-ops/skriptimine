@@ -1,10 +1,12 @@
 #!/bin/bash
 
-for i in {1..10}
+summa=0
+
+for (( i=1; i<=10; i++ ))
 do
-    if [[ $i -eq 7 ]]; then
-	echo "Katkestan tsukli, kuna i=7"
-	break
+    if [ $((i % 2)) -eq 0 ]; then
+        summa=$((summa + i))
     fi
-    echo "i = $i"
 done
+
+echo "Arvude vahemikus 1 kuni 10 (kaasaarvutud) paarisarvude summa on: $summa"
