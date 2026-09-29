@@ -15,3 +15,37 @@ Lottery numbers:
 3
 Matches: 0
 Result: Raha lännu.(0/5)
+=====
+Date: Tue Sep 29 02:18:08 PM EEST 2026
+Player: katriin
+Player numbers:
+1
+2
+3
+4
+5
+Lottery numbers:
+40
+2
+50
+12
+19
+Matches: 1
+Result: Sa oled ikka vaene(1/5)
+=====
+Date: Tue Sep 29 02:25:45 PM EEST 2026
+Player: toomas
+Player numbers:
+5
+3
+2
+1
+7
+Lottery numbers:
+32
+27
+5
+38
+37
+Matches: 1
+Result: Sa oled ikka vaene(1/5)
