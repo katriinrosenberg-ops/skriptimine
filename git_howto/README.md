@@ -15,35 +15,35 @@ Selles repositooriumis õpipis Bash skriptimist GitHowTO abil
 
 ### Näited Git käskudest
 
-'''bash
+```bash
 git switch
-'''
+```
 
-'''bash
+```bash
 git push -u
-'''
+```
 
-'''bash
+```bash
 git merge
-'''
+```
 
 ### Inline koodi näide
 
-'''bash
+```bash
 <html>
   <head>
     <h1> teksti näidend </h1>
   </head>
 </html>>
-'''
+```
 
 ## Git-i põhitöövoog
 
 Git-i töövoo näide:
 
-'''bash
+```bash
 git status
 git add .
 git commit -m "Kirjeldus muudatustest"
 git push -uf "repo" "branch"
-'''
+```
